@@ -15,13 +15,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                      <Link className="nav-link" to="/">Inicio</Link>
+                      <Link className="nav-link" to="/">Docencia</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/docencia">Docencia</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/items">Mamá Produce</Link>
+                      <Link className="nav-link" to="/exposiciones">Exposiciones</Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/contacto">Contacto</Link> 
